@@ -19,3 +19,8 @@ export const CLEAR_DISPLAY = "CLEAR_DISPLAY";
 export const clearDisplay = () => {
     return({type: CLEAR_DISPLAY})
 }
+
+export const ADD_TO_MEMORY = "ADD_TO_MEMORY";
+export const addToMemory = () => {
+    return {type: ADD_TO_MEMORY}
+}
